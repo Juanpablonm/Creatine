@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE08A48D2BF24A3500406645 /* CreatineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A48C2BF24A3500406645 /* CreatineApp.swift */; };
+		EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A48E2BF24A3500406645 /* ContentView.swift */; };
+		EE08A4912BF24A3600406645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE08A4902BF24A3600406645 /* Assets.xcassets */; };
+		EE08A4942BF24A3600406645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE08A4932BF24A3600406645 /* Preview Assets.xcassets */; };
+		EE08A49E2BF24A3700406645 /* CreatineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A49D2BF24A3700406645 /* CreatineTests.swift */; };
+		EE08A4A82BF24A3700406645 /* CreatineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4A72BF24A3700406645 /* CreatineUITests.swift */; };
+		EE08A4AA2BF24A3700406645 /* CreatineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE08A49A2BF24A3700406645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE08A4812BF24A3500406645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE08A4882BF24A3500406645;
+			remoteInfo = Creatine;
+		};
+		EE08A4A42BF24A3700406645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE08A4812BF24A3500406645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE08A4882BF24A3500406645;
+			remoteInfo = Creatine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE08A4892BF24A3500406645 /* Creatine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Creatine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08A48C2BF24A3500406645 /* CreatineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineApp.swift; sourceTree = "<group>"; };
+		EE08A48E2BF24A3500406645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE08A4902BF24A3600406645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE08A4932BF24A3600406645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE08A4992BF24A3700406645 /* CreatineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08A49D2BF24A3700406645 /* CreatineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineTests.swift; sourceTree = "<group>"; };
+		EE08A4A32BF24A3700406645 /* CreatineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08A4A72BF24A3700406645 /* CreatineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineUITests.swift; sourceTree = "<group>"; };
+		EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE08A4862BF24A3500406645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A4962BF24A3700406645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A4A02BF24A3700406645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE08A4802BF24A3500406645 = {
+			isa = PBXGroup;
+			children = (
+				EE08A48B2BF24A3500406645 /* Creatine */,
+				EE08A49C2BF24A3700406645 /* CreatineTests */,
+				EE08A4A62BF24A3700406645 /* CreatineUITests */,
+				EE08A48A2BF24A3500406645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE08A48A2BF24A3500406645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4892BF24A3500406645 /* Creatine.app */,
+				EE08A4992BF24A3700406645 /* CreatineTests.xctest */,
+				EE08A4A32BF24A3700406645 /* CreatineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE08A48B2BF24A3500406645 /* Creatine */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A48C2BF24A3500406645 /* CreatineApp.swift */,
+				EE08A48E2BF24A3500406645 /* ContentView.swift */,
+				EE08A4902BF24A3600406645 /* Assets.xcassets */,
+				EE08A4922BF24A3600406645 /* Preview Content */,
+			);
+			path = Creatine;
+			sourceTree = "<group>";
+		};
+		EE08A4922BF24A3600406645 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4932BF24A3600406645 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE08A49C2BF24A3700406645 /* CreatineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A49D2BF24A3700406645 /* CreatineTests.swift */,
+			);
+			path = CreatineTests;
+			sourceTree = "<group>";
+		};
+		EE08A4A62BF24A3700406645 /* CreatineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4A72BF24A3700406645 /* CreatineUITests.swift */,
+				EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */,
+			);
+			path = CreatineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE08A4882BF24A3500406645 /* Creatine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE08A4AD2BF24A3700406645 /* Build configuration list for PBXNativeTarget "Creatine" */;
+			buildPhases = (
+				EE08A4852BF24A3500406645 /* Sources */,
+				EE08A4862BF24A3500406645 /* Frameworks */,
+				EE08A4872BF24A3500406645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Creatine;
+			productName = Creatine;
+			productReference = EE08A4892BF24A3500406645 /* Creatine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE08A4982BF24A3700406645 /* CreatineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE08A4B02BF24A3700406645 /* Build configuration list for PBXNativeTarget "CreatineTests" */;
+			buildPhases = (
+				EE08A4952BF24A3700406645 /* Sources */,
+				EE08A4962BF24A3700406645 /* Frameworks */,
+				EE08A4972BF24A3700406645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE08A49B2BF24A3700406645 /* PBXTargetDependency */,
+			);
+			name = CreatineTests;
+			productName = CreatineTests;
+			productReference = EE08A4992BF24A3700406645 /* CreatineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE08A4A22BF24A3700406645 /* CreatineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE08A4B32BF24A3700406645 /* Build configuration list for PBXNativeTarget "CreatineUITests" */;
+			buildPhases = (
+				EE08A49F2BF24A3700406645 /* Sources */,
+				EE08A4A02BF24A3700406645 /* Frameworks */,
+				EE08A4A12BF24A3700406645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE08A4A52BF24A3700406645 /* PBXTargetDependency */,
+			);
+			name = CreatineUITests;
+			productName = CreatineUITests;
+			productReference = EE08A4A32BF24A3700406645 /* CreatineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE08A4812BF24A3500406645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EE08A4882BF24A3500406645 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EE08A4982BF24A3700406645 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EE08A4882BF24A3500406645;
+					};
+					EE08A4A22BF24A3700406645 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EE08A4882BF24A3500406645;
+					};
+				};
+			};
+			buildConfigurationList = EE08A4842BF24A3500406645 /* Build configuration list for PBXProject "Creatine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE08A4802BF24A3500406645;
+			productRefGroup = EE08A48A2BF24A3500406645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE08A4882BF24A3500406645 /* Creatine */,
+				EE08A4982BF24A3700406645 /* CreatineTests */,
+				EE08A4A22BF24A3700406645 /* CreatineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE08A4872BF24A3500406645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08A4942BF24A3600406645 /* Preview Assets.xcassets in Resources */,
+				EE08A4912BF24A3600406645 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A4972BF24A3700406645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A4A12BF24A3700406645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE08A4852BF24A3500406645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */,
+				EE08A48D2BF24A3500406645 /* CreatineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A4952BF24A3700406645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08A49E2BF24A3700406645 /* CreatineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08A49F2BF24A3700406645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08A4AA2BF24A3700406645 /* CreatineUITestsLaunchTests.swift in Sources */,
+				EE08A4A82BF24A3700406645 /* CreatineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE08A49B2BF24A3700406645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE08A4882BF24A3500406645 /* Creatine */;
+			targetProxy = EE08A49A2BF24A3700406645 /* PBXContainerItemProxy */;
+		};
+		EE08A4A52BF24A3700406645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE08A4882BF24A3500406645 /* Creatine */;
+			targetProxy = EE08A4A42BF24A3700406645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE08A4AB2BF24A3700406645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE08A4AC2BF24A3700406645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE08A4AE2BF24A3700406645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Creatine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.Creatine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE08A4AF2BF24A3700406645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Creatine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.Creatine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE08A4B12BF24A3700406645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.CreatineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creatine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Creatine";
+			};
+			name = Debug;
+		};
+		EE08A4B22BF24A3700406645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.CreatineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creatine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Creatine";
+			};
+			name = Release;
+		};
+		EE08A4B42BF24A3700406645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.CreatineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Creatine;
+			};
+			name = Debug;
+		};
+		EE08A4B52BF24A3700406645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatine.CreatineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Creatine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE08A4842BF24A3500406645 /* Build configuration list for PBXProject "Creatine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08A4AB2BF24A3700406645 /* Debug */,
+				EE08A4AC2BF24A3700406645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE08A4AD2BF24A3700406645 /* Build configuration list for PBXNativeTarget "Creatine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08A4AE2BF24A3700406645 /* Debug */,
+				EE08A4AF2BF24A3700406645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE08A4B02BF24A3700406645 /* Build configuration list for PBXNativeTarget "CreatineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08A4B12BF24A3700406645 /* Debug */,
+				EE08A4B22BF24A3700406645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE08A4B32BF24A3700406645 /* Build configuration list for PBXNativeTarget "CreatineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08A4B42BF24A3700406645 /* Debug */,
+				EE08A4B52BF24A3700406645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE08A4812BF24A3500406645 /* Project object */;
+}
