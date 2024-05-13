@@ -14,6 +14,13 @@
 		EE08A49E2BF24A3700406645 /* CreatineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A49D2BF24A3700406645 /* CreatineTests.swift */; };
 		EE08A4A82BF24A3700406645 /* CreatineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4A72BF24A3700406645 /* CreatineUITests.swift */; };
 		EE08A4AA2BF24A3700406645 /* CreatineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */; };
+		EE08A4BA2BF24D2300406645 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4B92BF24D2300406645 /* InfoView.swift */; };
+		EE08A4C02BF2501500406645 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4BF2BF2501500406645 /* CommentView.swift */; };
+		EE08A4C22BF252B200406645 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4C12BF252B200406645 /* UserView.swift */; };
+		EE08A4C62BF256A600406645 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4C52BF256A600406645 /* UserInfoView.swift */; };
+		EE08A4C92BF2634B00406645 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4C82BF2634B00406645 /* DescriptionView.swift */; };
+		EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4CB2BF2A18400406645 /* PostRowView.swift */; };
+		EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4CD2BF2A21100406645 /* PostListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		EE08A4A32BF24A3700406645 /* CreatineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE08A4A72BF24A3700406645 /* CreatineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineUITests.swift; sourceTree = "<group>"; };
 		EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE08A4B92BF24D2300406645 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		EE08A4BF2BF2501500406645 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		EE08A4C12BF252B200406645 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		EE08A4C52BF256A600406645 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		EE08A4C82BF2634B00406645 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		EE08A4CB2BF2A18400406645 /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		EE08A4CD2BF2A21100406645 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,9 @@
 		EE08A48B2BF24A3500406645 /* Creatine */ = {
 			isa = PBXGroup;
 			children = (
+				EE08A4B72BF24B5400406645 /* Model */,
+				EE08A4B62BF24B4D00406645 /* View */,
+				EE08A4B82BF24B9400406645 /* ViewModel */,
 				EE08A48C2BF24A3500406645 /* CreatineApp.swift */,
 				EE08A48E2BF24A3500406645 /* ContentView.swift */,
 				EE08A4902BF24A3600406645 /* Assets.xcassets */,
@@ -125,6 +142,74 @@
 				EE08A4A92BF24A3700406645 /* CreatineUITestsLaunchTests.swift */,
 			);
 			path = CreatineUITests;
+			sourceTree = "<group>";
+		};
+		EE08A4B62BF24B4D00406645 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4CA2BF2A14200406645 /* Home */,
+				EE08A4BB2BF24ED900406645 /* Details */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE08A4B72BF24B5400406645 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE08A4B82BF24B9400406645 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE08A4BB2BF24ED900406645 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4C72BF262EA00406645 /* Description */,
+				EE08A4C42BF255E500406645 /* Comment */,
+				EE08A4C32BF255D700406645 /* User */,
+				EE08A4B92BF24D2300406645 /* InfoView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		EE08A4C32BF255D700406645 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4C52BF256A600406645 /* UserInfoView.swift */,
+				EE08A4C12BF252B200406645 /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EE08A4C42BF255E500406645 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4BF2BF2501500406645 /* CommentView.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		EE08A4C72BF262EA00406645 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4C82BF2634B00406645 /* DescriptionView.swift */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		EE08A4CA2BF2A14200406645 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4CB2BF2A18400406645 /* PostRowView.swift */,
+				EE08A4CD2BF2A21100406645 /* PostListView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +343,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */,
+				EE08A4C92BF2634B00406645 /* DescriptionView.swift in Sources */,
+				EE08A4BA2BF24D2300406645 /* InfoView.swift in Sources */,
+				EE08A4C22BF252B200406645 /* UserView.swift in Sources */,
+				EE08A4C62BF256A600406645 /* UserInfoView.swift in Sources */,
+				EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */,
+				EE08A4C02BF2501500406645 /* CommentView.swift in Sources */,
+				EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */,
 				EE08A48D2BF24A3500406645 /* CreatineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
