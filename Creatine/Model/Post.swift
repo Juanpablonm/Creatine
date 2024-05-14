@@ -7,8 +7,7 @@
 
 import Foundation
 
-class PostViewModel: Codable, Identifiable {
-    
+class Post: Codable, Identifiable {
     
     var userId: Int?
     var id: Int?
@@ -21,11 +20,14 @@ class PostViewModel: Codable, Identifiable {
         self.title = title
         self.body = body
     }
-    static func == (lhs: PostViewModel, rhs: PostViewModel) -> Bool {
+
+    static func == (lhs: Post, rhs: Post) -> Bool {
         return lhs.id == rhs.id
     }
-    
-    
+}
+
+struct PostResponse: Codable {
+    var posts: [Post] = []
 }
 
 

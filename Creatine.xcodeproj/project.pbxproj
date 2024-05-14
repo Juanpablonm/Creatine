@@ -21,6 +21,16 @@
 		EE08A4C92BF2634B00406645 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4C82BF2634B00406645 /* DescriptionView.swift */; };
 		EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4CB2BF2A18400406645 /* PostRowView.swift */; };
 		EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4CD2BF2A21100406645 /* PostListView.swift */; };
+		EE08A4D02BF39AAD00406645 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4CF2BF39AAD00406645 /* Post.swift */; };
+		EE08A4D32BF39D2300406645 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4D22BF39D2300406645 /* ApiManager.swift */; };
+		EE08A4D82BF3AF4500406645 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4D72BF3AF4500406645 /* ErrorManager.swift */; };
+		EE08A4DB2BF3AF9900406645 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4DA2BF3AF9900406645 /* Localizable.swift */; };
+		EE08A4DD2BF3B29300406645 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4DC2BF3B29300406645 /* NetworkMonitor.swift */; };
+		EE08A4E02BF3B36800406645 /* CreatineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4DF2BF3B36800406645 /* CreatineResponse.swift */; };
+		EE08A4E32BF3C16500406645 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EE08A4E22BF3C16500406645 /* Alamofire */; };
+		EE08A4E52BF3E90000406645 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E42BF3E90000406645 /* PostsViewModel.swift */; };
+		EE08A4E72BF3EA4900406645 /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E62BF3EA4900406645 /* PostManager.swift */; };
+		EE08A4EA2BF3EE4200406645 /* ViewStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,15 @@
 		EE08A4C82BF2634B00406645 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		EE08A4CB2BF2A18400406645 /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
 		EE08A4CD2BF2A21100406645 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		EE08A4CF2BF39AAD00406645 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EE08A4D22BF39D2300406645 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		EE08A4D72BF3AF4500406645 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		EE08A4DA2BF3AF9900406645 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		EE08A4DC2BF3B29300406645 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		EE08A4DF2BF3B36800406645 /* CreatineResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatineResponse.swift; sourceTree = "<group>"; };
+		EE08A4E42BF3E90000406645 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		EE08A4E62BF3EA4900406645 /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE08A4E32BF3C16500406645 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +131,9 @@
 				EE08A4B72BF24B5400406645 /* Model */,
 				EE08A4B62BF24B4D00406645 /* View */,
 				EE08A4B82BF24B9400406645 /* ViewModel */,
+				EE08A4D92BF3AF8700406645 /* Localizable */,
+				EE08A4D12BF39D0C00406645 /* Manager */,
+				EE08A4E82BF3EE2900406645 /* Utils */,
 				EE08A48C2BF24A3500406645 /* CreatineApp.swift */,
 				EE08A48E2BF24A3500406645 /* ContentView.swift */,
 				EE08A4902BF24A3600406645 /* Assets.xcassets */,
@@ -156,6 +179,8 @@
 		EE08A4B72BF24B5400406645 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE08A4DE2BF3B33D00406645 /* Responses */,
+				EE08A4CF2BF39AAD00406645 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +188,7 @@
 		EE08A4B82BF24B9400406645 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EE08A4E42BF3E90000406645 /* PostsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -212,6 +238,41 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		EE08A4D12BF39D0C00406645 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4D22BF39D2300406645 /* ApiManager.swift */,
+				EE08A4D72BF3AF4500406645 /* ErrorManager.swift */,
+				EE08A4DC2BF3B29300406645 /* NetworkMonitor.swift */,
+				EE08A4E62BF3EA4900406645 /* PostManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE08A4D92BF3AF8700406645 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4DA2BF3AF9900406645 /* Localizable.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		EE08A4DE2BF3B33D00406645 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4DF2BF3B36800406645 /* CreatineResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		EE08A4E82BF3EE2900406645 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +289,9 @@
 			dependencies = (
 			);
 			name = Creatine;
+			packageProductDependencies = (
+				EE08A4E22BF3C16500406645 /* Alamofire */,
+			);
 			productName = Creatine;
 			productReference = EE08A4892BF24A3500406645 /* Creatine.app */;
 			productType = "com.apple.product-type.application";
@@ -300,6 +364,9 @@
 				Base,
 			);
 			mainGroup = EE08A4802BF24A3500406645;
+			packageReferences = (
+				EE08A4E12BF3C16500406645 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = EE08A48A2BF24A3500406645 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,15 +409,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE08A4EA2BF3EE4200406645 /* ViewStateProtocol.swift in Sources */,
+				EE08A4D02BF39AAD00406645 /* Post.swift in Sources */,
+				EE08A4E72BF3EA4900406645 /* PostManager.swift in Sources */,
 				EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */,
 				EE08A4C92BF2634B00406645 /* DescriptionView.swift in Sources */,
 				EE08A4BA2BF24D2300406645 /* InfoView.swift in Sources */,
+				EE08A4E52BF3E90000406645 /* PostsViewModel.swift in Sources */,
 				EE08A4C22BF252B200406645 /* UserView.swift in Sources */,
 				EE08A4C62BF256A600406645 /* UserInfoView.swift in Sources */,
+				EE08A4D82BF3AF4500406645 /* ErrorManager.swift in Sources */,
+				EE08A4D32BF39D2300406645 /* ApiManager.swift in Sources */,
 				EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */,
 				EE08A4C02BF2501500406645 /* CommentView.swift in Sources */,
 				EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */,
+				EE08A4DB2BF3AF9900406645 /* Localizable.swift in Sources */,
+				EE08A4E02BF3B36800406645 /* CreatineResponse.swift in Sources */,
 				EE08A48D2BF24A3500406645 /* CreatineApp.swift in Sources */,
+				EE08A4DD2BF3B29300406645 /* NetworkMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +750,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE08A4E12BF3C16500406645 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE08A4E22BF3C16500406645 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE08A4E12BF3C16500406645 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE08A4812BF24A3500406645 /* Project object */;
 }

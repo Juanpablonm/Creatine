@@ -1,25 +1,20 @@
-//
-//  PostRowView.swift
-//  Creatine
-//
-//  Created by Juan Pablo Nunez on 13/5/24.
-//
-
 import SwiftUI
 
 struct PostRowView: View {
+    var post: Post
+    
     var body: some View {
         HStack {
-            Text("Post x va aca")
+            Text(post.title ?? "No Title")
             Spacer()
-//            if landmark.isFavorite {
-//                Image(systemName: "star.fill")
-//                    .foregroundStyle(.yellow)
-//            }
         }
     }
 }
 
 #Preview {
-    PostRowView()
+    let post = Post(userId: 1,
+                    id: 1,
+                    title: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+                    body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto")
+    return PostRowView(post: post)
 }

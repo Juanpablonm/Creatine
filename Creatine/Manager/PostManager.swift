@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import AVFoundation
+
+class PostManager {
+    static let shared = PostManager()
+    
+    func getPosts(success: @escaping(_ posts: [Post]) -> Void, failure: @escaping(_ error: NetworkError) -> Void) {
+        ApiManager.shared.getPosts() { posts in
+            success(posts)
+        } failure: { error in
+            failure(error)
+        }
+    }
+}

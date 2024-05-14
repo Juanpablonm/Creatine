@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct PostListView: View {
+    @StateObject var viewModel: PostsViewModel
+    
     @State private var showFavoritesOnly = false
+    
+    init(viewModel: PostsViewModel, showFavoritesOnly: Bool = false) {
+        self._viewModel = StateObject(wrappedValue: PostsViewModel())
+        self.showFavoritesOnly = showFavoritesOnly
+    }
     var body: some View {
         NavigationSplitView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                NavigationLink {
-                    InfoView()
-                } label: {
-                    PostRowView()
+
+                ForEach(viewModel.posts) { post in
+                    NavigationLink {
+                        InfoView()
+                    } label: {
+                        PostRowView(post: post)
+                    }
                 }
             }
             .animation(.default, value: "")
@@ -30,5 +40,5 @@ struct PostListView: View {
 }
 
 #Preview {
-    PostListView()
+    PostListView(viewModel: PostsViewModel())
 }

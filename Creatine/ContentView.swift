@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = PostsViewModel()
     var body: some View {
-        PostListView()
+        PostListView(viewModel: viewModel)
     }
 }
 

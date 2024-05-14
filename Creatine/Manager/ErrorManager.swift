@@ -71,13 +71,6 @@ enum NetworkError: LocalizedError {
         switch self {
         case .internetError:
             return Localizable.Alert.noInternetTitle
-        case .serverError(let serverError):
-            return Localizable.Alert.errorTitle
-        case .errorWithCode(let statusCode):
-            guard let code = statusCode else {
-                return Localizable.Alert.noInternetTitle
-            }
-            return Localizable.Alert.errorTitle
         default:
             return Localizable.Alert.errorTitle
         }

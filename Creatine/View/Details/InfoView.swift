@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct InfoView: View {
+//    var post: Post
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
