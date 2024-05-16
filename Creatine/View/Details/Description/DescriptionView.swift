@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct DescriptionView: View {
+    var description: String
     var body: some View {
         VStack(alignment: .leading) {
             Text("Description")
                 .font(.title2.weight(.medium))
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed mauris sit amet ex finibus suscipit. Nullam dapibus pulvinar eros, eget fringilla enim finibus ac.")
+            Text(description)
         }
         .padding()
     }
 }
 
 #Preview {
-    DescriptionView()
+    DescriptionView(description: "Hola como estasdfasfas")
 }

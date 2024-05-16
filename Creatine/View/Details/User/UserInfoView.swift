@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct UserInfoView: View {
+    var tag: String
     var info: String
     var body: some View {
         HStack {
-            Text(info.capitalized)
+            Text(tag.capitalized)
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
-            Text(info) //here comes name
+            Text(info)
         }
     }
 }
 
 #Preview {
-    UserInfoView(info: "name")
+    UserInfoView(tag: "name", info: "Juan")
 }

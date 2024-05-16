@@ -31,6 +31,18 @@
 		EE08A4E52BF3E90000406645 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E42BF3E90000406645 /* PostsViewModel.swift */; };
 		EE08A4E72BF3EA4900406645 /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E62BF3EA4900406645 /* PostManager.swift */; };
 		EE08A4EA2BF3EE4200406645 /* ViewStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */; };
+		EE08A4EC2BF4E9F700406645 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4EB2BF4E9F700406645 /* User.swift */; };
+		EE08A4EE2BF4ED5B00406645 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4ED2BF4ED5B00406645 /* UserManager.swift */; };
+		EE08A4F02BF4F3A100406645 /* UserViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4EF2BF4F3A100406645 /* UserViewmodel.swift */; };
+		EE08A4F32BF507CE00406645 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4F22BF507CE00406645 /* LoaderView.swift */; };
+		EE08A4F52BF53C7C00406645 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4F42BF53C7C00406645 /* Comment.swift */; };
+		EE08A4F72BF5418000406645 /* CommentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4F62BF5418000406645 /* CommentManager.swift */; };
+		EE08A4F92BF5421E00406645 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4F82BF5421E00406645 /* CommentViewModel.swift */; };
+		EE08A4FB2BF54AA400406645 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A4FA2BF54AA400406645 /* PhotoView.swift */; };
+		EE08A5012BF63D4900406645 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5002BF63D4900406645 /* FavoriteButtonView.swift */; };
+		EE08A5032BF653FC00406645 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5022BF653FC00406645 /* Binding.swift */; };
+		EE08A5052BF68A2E00406645 /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */; };
+		EE08A5072BF69F1B00406645 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +89,18 @@
 		EE08A4E42BF3E90000406645 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		EE08A4E62BF3EA4900406645 /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
 		EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateProtocol.swift; sourceTree = "<group>"; };
+		EE08A4EB2BF4E9F700406645 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE08A4ED2BF4ED5B00406645 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EE08A4EF2BF4F3A100406645 /* UserViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewmodel.swift; sourceTree = "<group>"; };
+		EE08A4F22BF507CE00406645 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		EE08A4F42BF53C7C00406645 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		EE08A4F62BF5418000406645 /* CommentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentManager.swift; sourceTree = "<group>"; };
+		EE08A4F82BF5421E00406645 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		EE08A4FA2BF54AA400406645 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		EE08A5002BF63D4900406645 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		EE08A5022BF653FC00406645 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
+		EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +194,7 @@
 		EE08A4B62BF24B4D00406645 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE08A4F12BF507BB00406645 /* Utils */,
 				EE08A4CA2BF2A14200406645 /* Home */,
 				EE08A4BB2BF24ED900406645 /* Details */,
 			);
@@ -181,6 +206,8 @@
 			children = (
 				EE08A4DE2BF3B33D00406645 /* Responses */,
 				EE08A4CF2BF39AAD00406645 /* Post.swift */,
+				EE08A4EB2BF4E9F700406645 /* User.swift */,
+				EE08A4F42BF53C7C00406645 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				EE08A4E42BF3E90000406645 /* PostsViewModel.swift */,
+				EE08A4EF2BF4F3A100406645 /* UserViewmodel.swift */,
+				EE08A4F82BF5421E00406645 /* CommentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -209,6 +238,7 @@
 			children = (
 				EE08A4C52BF256A600406645 /* UserInfoView.swift */,
 				EE08A4C12BF252B200406645 /* UserView.swift */,
+				EE08A4FA2BF54AA400406645 /* PhotoView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -245,6 +275,8 @@
 				EE08A4D72BF3AF4500406645 /* ErrorManager.swift */,
 				EE08A4DC2BF3B29300406645 /* NetworkMonitor.swift */,
 				EE08A4E62BF3EA4900406645 /* PostManager.swift */,
+				EE08A4ED2BF4ED5B00406645 /* UserManager.swift */,
+				EE08A4F62BF5418000406645 /* CommentManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -269,6 +301,18 @@
 			isa = PBXGroup;
 			children = (
 				EE08A4E92BF3EE4200406645 /* ViewStateProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EE08A4F12BF507BB00406645 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE08A4F22BF507CE00406645 /* LoaderView.swift */,
+				EE08A5002BF63D4900406645 /* FavoriteButtonView.swift */,
+				EE08A5022BF653FC00406645 /* Binding.swift */,
+				EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */,
+				EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -410,6 +454,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE08A4EA2BF3EE4200406645 /* ViewStateProtocol.swift in Sources */,
+				EE08A4FB2BF54AA400406645 /* PhotoView.swift in Sources */,
+				EE08A4F52BF53C7C00406645 /* Comment.swift in Sources */,
+				EE08A5032BF653FC00406645 /* Binding.swift in Sources */,
+				EE08A4F32BF507CE00406645 /* LoaderView.swift in Sources */,
+				EE08A4F92BF5421E00406645 /* CommentViewModel.swift in Sources */,
 				EE08A4D02BF39AAD00406645 /* Post.swift in Sources */,
 				EE08A4E72BF3EA4900406645 /* PostManager.swift in Sources */,
 				EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */,
@@ -419,14 +468,21 @@
 				EE08A4C22BF252B200406645 /* UserView.swift in Sources */,
 				EE08A4C62BF256A600406645 /* UserInfoView.swift in Sources */,
 				EE08A4D82BF3AF4500406645 /* ErrorManager.swift in Sources */,
+				EE08A5052BF68A2E00406645 /* DeleteButtonView.swift in Sources */,
 				EE08A4D32BF39D2300406645 /* ApiManager.swift in Sources */,
+				EE08A4F02BF4F3A100406645 /* UserViewmodel.swift in Sources */,
 				EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */,
 				EE08A4C02BF2501500406645 /* CommentView.swift in Sources */,
 				EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */,
 				EE08A4DB2BF3AF9900406645 /* Localizable.swift in Sources */,
 				EE08A4E02BF3B36800406645 /* CreatineResponse.swift in Sources */,
 				EE08A48D2BF24A3500406645 /* CreatineApp.swift in Sources */,
+				EE08A5012BF63D4900406645 /* FavoriteButtonView.swift in Sources */,
 				EE08A4DD2BF3B29300406645 /* NetworkMonitor.swift in Sources */,
+				EE08A5072BF69F1B00406645 /* RefreshButtonView.swift in Sources */,
+				EE08A4F72BF5418000406645 /* CommentManager.swift in Sources */,
+				EE08A4EE2BF4ED5B00406645 /* UserManager.swift in Sources */,
+				EE08A4EC2BF4E9F700406645 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

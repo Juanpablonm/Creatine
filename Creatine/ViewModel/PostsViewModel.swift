@@ -9,7 +9,7 @@ import Foundation
 
 class PostsViewModel: ObservableObject {
     @Published var posts: [Post] = []
-    @Published var state: ViewState
+    @Published var state: ViewState = .empty
     
     init() {
         self.state = .empty
@@ -18,7 +18,7 @@ class PostsViewModel: ObservableObject {
     
     func loadPosts() {
         state = .loading
-        PostManager.shared.getPosts() { posts in
+        PostManager.shared.getPosts { posts in
             DispatchQueue.main.async {
                 self.posts = posts
                 self.state = .success
@@ -28,6 +28,14 @@ class PostsViewModel: ObservableObject {
                 self.state = .error(error)
             }
         }
+    }
+    
+    func clearAllPosts() {
+        posts.removeAll()
+    }
+    
+    func deletePost(at index: Int) {
+        posts.remove(at: index)
     }
 }
 

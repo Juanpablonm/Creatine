@@ -67,14 +67,14 @@ enum NetworkError: LocalizedError {
         }
     }
     
-    var errorTitle: String {
-        switch self {
-        case .internetError:
-            return Localizable.Alert.noInternetTitle
-        default:
-            return Localizable.Alert.errorTitle
-        }
-    }
+//    var errorTitle: String {
+//        switch self {
+//        case .internetError:
+//            return Localizable.Alert.noInternetTitle
+//        default:
+//            return Localizable.Alert.errorTitle
+//        }
+//    }
     
     func errorMessageFrom(error: Error) -> String {
         return Localizable.Alert.unkownErrorMessage
