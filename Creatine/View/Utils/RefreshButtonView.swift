@@ -16,8 +16,7 @@ struct RefreshButtonView: View {
         }) {
             Label("Download", systemImage: "icloud.and.arrow.down.fill")
                 .labelStyle(.iconOnly)
-                .foregroundStyle(.gray)
-                .font(.system(size: 40))
+                .font(.system(size: 30))
         }
     }
 }

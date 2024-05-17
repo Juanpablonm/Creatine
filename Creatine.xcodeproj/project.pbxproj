@@ -43,6 +43,7 @@
 		EE08A5032BF653FC00406645 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5022BF653FC00406645 /* Binding.swift */; };
 		EE08A5052BF68A2E00406645 /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */; };
 		EE08A5072BF69F1B00406645 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */; };
+		EE08A5092BF79C2E00406645 /* BackPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5082BF79C2E00406645 /* BackPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		EE08A5022BF653FC00406645 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
 		EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
+		EE08A5082BF79C2E00406645 /* BackPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 				EE08A5022BF653FC00406645 /* Binding.swift */,
 				EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */,
 				EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */,
+				EE08A5082BF79C2E00406645 /* BackPageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				EE08A4F92BF5421E00406645 /* CommentViewModel.swift in Sources */,
 				EE08A4D02BF39AAD00406645 /* Post.swift in Sources */,
 				EE08A4E72BF3EA4900406645 /* PostManager.swift in Sources */,
+				EE08A5092BF79C2E00406645 /* BackPageView.swift in Sources */,
 				EE08A48F2BF24A3500406645 /* ContentView.swift in Sources */,
 				EE08A4C92BF2634B00406645 /* DescriptionView.swift in Sources */,
 				EE08A4BA2BF24D2300406645 /* InfoView.swift in Sources */,

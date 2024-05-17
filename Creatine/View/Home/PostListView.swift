@@ -23,40 +23,48 @@ struct PostListView: View {
             NavigationSplitView {
                 ZStack {
                     List {
-                        Toggle(isOn: $showFavoritesOnly) {
-                            Text("Favorites only")
+                        Section(header:
+                                    HStack {
+                            Text("Posts")
+                                .font(.largeTitle)
+                                .bold()
+                                Spacer()
+                            RefreshButtonView(postViewModel: postViewModel)
                         }
-                        ForEach(filteredPosts) { post in
-                            NavigationLink(destination: InfoView(
-                                postViewModel: postViewModel,
-                                userViewModel: UserViewModel(userId: post.userId),
-                                commentViewModel: CommentViewModel(postId: post.id),
-                                post: post)) {
-                                    PostRowView(post: post)
-                                }
+                        ) {
+                            Toggle(isOn: $showFavoritesOnly) {
+                                Text("Favorites only")
+                            }
+                            ForEach(filteredPosts) { post in
+                                NavigationLink(
+                                    destination: InfoView(post: post, postViewModel: postViewModel)) {
+                                        PostRowView(post: post)
+                                    }
+                            }
                         }
                     }
                     .animation(.bouncy, value: showFavoritesOnly)
-                    .navigationTitle("Posts")
+                    //                    .navigationTitle("Posts")
                     VStack {
                         Spacer()
                         HStack {
-                        Spacer()
+                            Spacer()
                             DeleteButtonView(postViewModel: postViewModel, titleDelete: "all posts")
                                 .padding()
                                 .offset(y: +40)
                         }
                     }
                 }
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        RefreshButtonView(postViewModel: postViewModel)
-                    }
-                }
-
+                //                .toolbar {
+                //                    ToolbarItem(placement: .navigationBarTrailing) {
+                //                        RefreshButtonView(postViewModel: postViewModel)
+                //                    }
+                //                }
+                
             } detail: {
                 Text("Select a Post")
             }
+            .navigationBarBackButtonHidden(true)
         }
     }
 }

@@ -9,13 +9,19 @@ import Foundation
 
 class User: Codable, Identifiable {
     
-    var id: Int?
-    var name: String?
-    var email: String?
-    var phone: String?
-    var website: String?
-    
-    init(id: Int? = nil, name: String? = nil, email: String? = nil, phone: String? = nil, website: String? = nil) {
+    var id: Int
+    var name: String
+    var email: String
+    var phone: String
+    var website: String
+    init(){
+        self.id = 0
+        self.name = ""
+        self.email = ""
+        self.phone = ""
+        self.website = ""
+    }
+    init(id: Int, name: String, email: String, phone: String, website: String) {
         self.id = id
         self.name = name
         self.email = email

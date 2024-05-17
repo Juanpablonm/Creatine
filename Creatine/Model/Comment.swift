@@ -28,9 +28,6 @@ class Comment: Codable, Identifiable {
     }
 }
 
-
 struct CommentResponse: Codable {
     var user: [Comment] = []
 }
-
-

@@ -17,10 +17,10 @@ struct UserView: View {
             HStack {
                 PhotoView(size: 95)
                 VStack(alignment: .leading) {
-                    UserInfoView(tag: "name:",info: user.name ?? "")
-                    UserInfoView(tag: "email:",info: user.email ?? "")
-                    UserInfoView(tag: "phone:",info: user.phone ?? "")
-                    UserInfoView(tag: "website:",info: user.website ?? "")
+                    UserInfoView(tag: "name:",info: user.name)
+                    UserInfoView(tag: "email:",info: user.email)
+                    UserInfoView(tag: "phone:",info: user.phone)
+                    UserInfoView(tag: "website:",info: user.website)
                 }
             }
         }
@@ -29,5 +29,5 @@ struct UserView: View {
 }
 
 #Preview {
-    UserView(user: User())
+    UserView(user: User(id: 1, name: "juan", email: "s@gmil.com", phone: "123132131", website: "asdasd"))
 }
