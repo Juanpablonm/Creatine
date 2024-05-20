@@ -22,16 +22,16 @@ struct PostListView: View {
             
             NavigationSplitView {
                 ZStack {
-                    List {
-                        Section(header:
-                                    HStack {
+                    VStack {
+                        HStack {
                             Text("Posts")
                                 .font(.largeTitle)
                                 .bold()
-                                Spacer()
+                            Spacer()
                             RefreshButtonView(postViewModel: postViewModel)
                         }
-                        ) {
+                        .padding(.horizontal)
+                        List {
                             Toggle(isOn: $showFavoritesOnly) {
                                 Text("Favorites only")
                             }
@@ -41,10 +41,10 @@ struct PostListView: View {
                                         PostRowView(post: post)
                                     }
                             }
+                            
                         }
+                        .animation(.bouncy, value: showFavoritesOnly)
                     }
-                    .animation(.bouncy, value: showFavoritesOnly)
-                    //                    .navigationTitle("Posts")
                     VStack {
                         Spacer()
                         HStack {
@@ -55,11 +55,6 @@ struct PostListView: View {
                         }
                     }
                 }
-                //                .toolbar {
-                //                    ToolbarItem(placement: .navigationBarTrailing) {
-                //                        RefreshButtonView(postViewModel: postViewModel)
-                //                    }
-                //                }
                 
             } detail: {
                 Text("Select a Post")

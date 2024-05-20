@@ -15,7 +15,7 @@ class CommentViewModel: ObservableObject {
         self.state = .empty
         loadComments(postId: postId)
     }
-    
+
     func loadComments(postId: Int) {
         state = .loading
         CommentManager.shared.getCommentsByPostId(postId: postId) { comments in

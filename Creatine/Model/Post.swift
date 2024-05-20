@@ -14,6 +14,14 @@ class Post: Codable, Identifiable {
     var body: String
     var isFavorite: Bool? = false
 
+    init() {
+        self.id = 0
+        self.userId = 0
+        self.title = ""
+        self.body = ""
+        self.isFavorite = false
+    }
+    
     init(userId: Int, id: Int, title: String, body: String, isFavorite: Bool = false) {
         self.id = id
         self.userId = userId

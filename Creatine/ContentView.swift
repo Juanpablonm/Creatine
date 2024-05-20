@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var viewModel = PostsViewModel()
-    var body: some View {
-        PostListView(viewModel: viewModel)
-    }
+    @State private var isActive = false
+        var body: some View {
+            if isActive {
+                PostListView(viewModel: viewModel)
+            }else {
+                SplashView(isActive: $isActive)
+            }
+        }
 }
 
 #Preview {

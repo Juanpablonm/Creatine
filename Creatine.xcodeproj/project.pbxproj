@@ -44,6 +44,9 @@
 		EE08A5052BF68A2E00406645 /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */; };
 		EE08A5072BF69F1B00406645 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */; };
 		EE08A5092BF79C2E00406645 /* BackPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08A5082BF79C2E00406645 /* BackPageView.swift */; };
+		EEABD2512BFB91FD000ECFF7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEABD2502BFB91FD000ECFF7 /* SplashView.swift */; };
+		EEABD2532BFB9D9A000ECFF7 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEABD2522BFB9D9A000ECFF7 /* Info.swift */; };
+		EEABD2552BFBA932000ECFF7 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEABD2542BFBA932000ECFF7 /* InfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,9 @@
 		EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
 		EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
 		EE08A5082BF79C2E00406645 /* BackPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPageView.swift; sourceTree = "<group>"; };
+		EEABD2502BFB91FD000ECFF7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EEABD2522BFB9D9A000ECFF7 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EEABD2542BFBA932000ECFF7 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +216,7 @@
 				EE08A4CF2BF39AAD00406645 /* Post.swift */,
 				EE08A4EB2BF4E9F700406645 /* User.swift */,
 				EE08A4F42BF53C7C00406645 /* Comment.swift */,
+				EEABD2522BFB9D9A000ECFF7 /* Info.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 				EE08A4E42BF3E90000406645 /* PostsViewModel.swift */,
 				EE08A4EF2BF4F3A100406645 /* UserViewmodel.swift */,
 				EE08A4F82BF5421E00406645 /* CommentViewModel.swift */,
+				EEABD2542BFBA932000ECFF7 /* InfoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,6 +324,7 @@
 				EE08A5042BF68A2E00406645 /* DeleteButtonView.swift */,
 				EE08A5062BF69F1B00406645 /* RefreshButtonView.swift */,
 				EE08A5082BF79C2E00406645 /* BackPageView.swift */,
+				EEABD2502BFB91FD000ECFF7 /* SplashView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -474,9 +483,11 @@
 				EE08A4D82BF3AF4500406645 /* ErrorManager.swift in Sources */,
 				EE08A5052BF68A2E00406645 /* DeleteButtonView.swift in Sources */,
 				EE08A4D32BF39D2300406645 /* ApiManager.swift in Sources */,
+				EEABD2552BFBA932000ECFF7 /* InfoViewModel.swift in Sources */,
 				EE08A4F02BF4F3A100406645 /* UserViewmodel.swift in Sources */,
 				EE08A4CC2BF2A18400406645 /* PostRowView.swift in Sources */,
 				EE08A4C02BF2501500406645 /* CommentView.swift in Sources */,
+				EEABD2532BFB9D9A000ECFF7 /* Info.swift in Sources */,
 				EE08A4CE2BF2A21100406645 /* PostListView.swift in Sources */,
 				EE08A4DB2BF3AF9900406645 /* Localizable.swift in Sources */,
 				EE08A4E02BF3B36800406645 /* CreatineResponse.swift in Sources */,
@@ -485,6 +496,7 @@
 				EE08A4DD2BF3B29300406645 /* NetworkMonitor.swift in Sources */,
 				EE08A5072BF69F1B00406645 /* RefreshButtonView.swift in Sources */,
 				EE08A4F72BF5418000406645 /* CommentManager.swift in Sources */,
+				EEABD2512BFB91FD000ECFF7 /* SplashView.swift in Sources */,
 				EE08A4EE2BF4ED5B00406645 /* UserManager.swift in Sources */,
 				EE08A4EC2BF4E9F700406645 /* User.swift in Sources */,
 			);

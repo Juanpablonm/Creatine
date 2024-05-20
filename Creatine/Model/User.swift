@@ -14,6 +14,7 @@ class User: Codable, Identifiable {
     var email: String
     var phone: String
     var website: String
+
     init(){
         self.id = 0
         self.name = ""
@@ -21,6 +22,7 @@ class User: Codable, Identifiable {
         self.phone = ""
         self.website = ""
     }
+
     init(id: Int, name: String, email: String, phone: String, website: String) {
         self.id = id
         self.name = name

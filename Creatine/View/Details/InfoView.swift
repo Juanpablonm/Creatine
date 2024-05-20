@@ -8,8 +8,8 @@ import SwiftUI
 
 struct InfoView: View {
     @ObservedObject var postViewModel: PostsViewModel
-    @ObservedObject var userViewModel: UserViewModel
-    @ObservedObject var commentViewModel: CommentViewModel
+    @StateObject var userViewModel: UserViewModel
+    @StateObject var commentViewModel: CommentViewModel
     var post: Post
     
     var postIndex: Int?
@@ -23,39 +23,30 @@ struct InfoView: View {
     }
 
     init(post: Post, postViewModel: PostsViewModel) {
-        let postId = post.id
-        let userId = post.userId
         self.post = post
         self.postViewModel = postViewModel
-        self.userViewModel = UserViewModel(userId: userId)
-        self.commentViewModel = CommentViewModel(postId: postId)
+        _userViewModel = StateObject(wrappedValue: UserViewModel(userId: post.userId))
+        _commentViewModel = StateObject(wrappedValue: CommentViewModel(postId: post.id))
         self.postIndex = getPostIndex()
     }
     
     var body: some View {
-        ZStack {
-            
-            VStack(alignment: .leading) {
-                ZStack {
-//                    RoundedRectangle(cornerRadius: 15)
-//                                    .fill(Color.blue)
-////                                    .shadow(color: Color.black.opacity(0.25), radius: 10, x: 0, y: 5)
-//                                    .frame(maxHeight: .infinity)
-//                                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    HStack {
-                        BackPageView()
-                        Spacer()
-                        Text("Details")
-                            .font(.largeTitle)
-                            .bold()
-                        Spacer()
-                        if (postIndex != nil) {
-                            FavoriteButton(isSet: $postViewModel.posts[postIndex!].isFavorite.unwrap(defaultValue: false))
-                        }
+        ZStack(alignment: .top) {
+            Color.clear
+            VStack(alignment: .leading, spacing: 0) {
+
+                HStack {
+                    BackPageView()
+                    Spacer()
+                    Text("Details")
+                        .font(.largeTitle)
+                        .bold()
+                    Spacer()
+                    if (postIndex != nil) {
+                        FavoriteButton(isSet: $postViewModel.posts[postIndex!].isFavorite.unwrap(defaultValue: false))
                     }
-                    .padding(.horizontal)
                 }
-                    .background(Color.gray)
+                .padding(.horizontal)
                 ScrollView {
                     VStack (alignment: .leading) {
                         UserView(user: userViewModel.user)
@@ -63,19 +54,11 @@ struct InfoView: View {
                         Divider()
                         CommentView(comments: commentViewModel.comments)
                     }
-                }.background(Color.gray)
+                }
                 .navigationBarBackButtonHidden(true)
             }
-//                            .navigationTitle("Details")
-//                            .navigationBarTitleDisplayMode(.inline)
-//                            .toolbar {
-//                                ToolbarItem(placement: .automatic) {
-//                                    if (postIndex != nil) {
-//                                        FavoriteButton(isSet: $postViewModel.posts[postIndex!].isFavorite.unwrap(defaultValue: false))
-//                                    }
-//                                }
-//                            }
-            VStack {
+
+            VStack(alignment: .leading) {
                 Spacer()
                 HStack {
                     Spacer()
@@ -85,6 +68,7 @@ struct InfoView: View {
                 }
             }
         }
+
     }
 }
 
