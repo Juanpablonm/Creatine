@@ -60,6 +60,7 @@ struct PostListView: View {
                 Text("Select a Post")
             }
             .navigationBarBackButtonHidden(true)
+            .navigationBarHidden(true)
         }
     }
 }

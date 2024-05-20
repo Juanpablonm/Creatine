@@ -31,10 +31,8 @@ struct InfoView: View {
     }
     
     var body: some View {
-        ZStack(alignment: .top) {
-            Color.clear
+        ZStack {
             VStack(alignment: .leading, spacing: 0) {
-
                 HStack {
                     BackPageView()
                     Spacer()
@@ -55,7 +53,6 @@ struct InfoView: View {
                         CommentView(comments: commentViewModel.comments)
                     }
                 }
-                .navigationBarBackButtonHidden(true)
             }
 
             VStack(alignment: .leading) {
@@ -68,6 +65,8 @@ struct InfoView: View {
                 }
             }
         }
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
 
     }
 }

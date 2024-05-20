@@ -14,10 +14,6 @@ class InfoViewModel: ObservableObject {
         self.info = Info(post: Post(), user: User(), comments: [])
     }
     
-//    init(post: Post) {
-//        self.info = Info(post: post, user: User(), comments: [])
-//        loadInfo(post: post)
-//    }
     
     func loadInfo(post: Post) -> Info {
         let user = UserViewModel(userId: post.userId).user

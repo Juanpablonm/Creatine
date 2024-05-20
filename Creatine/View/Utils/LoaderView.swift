@@ -21,7 +21,7 @@ struct LoaderView: View {
                 .onAppear {
                     self.isAnimating = true
                 }
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
